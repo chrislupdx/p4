@@ -1,0 +1,7 @@
+`
+anumber first = 1;
+anumber second = 2;
+
+anumber hold = 0;
+for second { first++; while (first == second) { ++susan; }  }  //for will iterate up to second.intlength
+`
