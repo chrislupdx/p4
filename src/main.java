@@ -8,7 +8,7 @@ public class main {
 
         parser a_parser = new parser();
         a_parser.parse(input.rawData);
-        //dictionary a_dict = new dictionary();
+        Dictionary a_dict = new Dictionary();
     }
 
 }
