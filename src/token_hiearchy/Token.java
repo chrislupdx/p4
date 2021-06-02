@@ -10,6 +10,16 @@ public class Token {
     public String actual; //would character or string comparison be better for lookup
     protected static final String OPENDELIM = "{"; //WHERE SHOULD I GO
     protected static final String CLOSEDELIM = "}";
+
+    public boolean actualMatches(String query)
+    {
+        if(actual.equals(query) == true)
+        {
+            return true;
+        }
+           return false;
+    }
+
     public Token()
     {
         actual = null;

@@ -1,7 +1,7 @@
 `
-anumber first = 1;
-anumber second = 2;
+anumber first = 1 ; stop
+anumber second = 2 ; stop
 
-anumber hold = 0;
-for second { first++; while (first == second) { ++susan; }  }  //for will iterate up to second.intlength
+anumber hold = 0 ; stop
+for second { first ++ ; while ( first == second ) { ++ susan ; }  } stop
 `

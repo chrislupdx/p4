@@ -9,6 +9,12 @@ public class main {
         parser a_parser = new parser();
         a_parser.parse(input.rawData);
         Dictionary a_dict = new Dictionary();
+
+        // storage
+                //arraylist<token> (or a vector for expansion flxiblity)
+
+        //iterating through my arraylist
+
     }
 
 }

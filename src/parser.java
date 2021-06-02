@@ -15,12 +15,14 @@ public class parser {
         {
             //System.out.println(rawData.get(i));
             var array =  rawData.get(i).split(" ");
-            for(int e = 0; e < array.length; e++) {
-                System.out.println("ii"); //this prints out each item of the array stringified
-                System.out.println(array[e]); //this prints out each item of the array stringified
-                System.out.println("ii"); //this prints out each item of the array stringified
+            for (String s : array)
+            {
+                //System.out.println("ii"); //this prints out each item of the array stringified
+                System.out.println(s); //this prints out each item of the array stringified
+                //System.out.println("ii"); //this prints out each item of the array stringified
+                //make a dictionary scope accessible here
+                //call dictionary's lookup(s)
             }
-
             //iterate through
             //for(int e = 0; e < array.length; e++)
             //{
